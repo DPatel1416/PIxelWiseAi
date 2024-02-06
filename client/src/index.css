@@ -1,23 +1,34 @@
+/* Include Tailwind base styles */
 @tailwind base;
+
+/* Include Tailwind component styles */
 @tailwind components;
+
+/* Include Tailwind utility styles */
 @tailwind utilities;
 
+/* Apply 'Inter' font family to all elements */
 * {
     font-family: 'Inter', sans-serif;
 }
 
+/* Media query for screen width >= 480px */
 @media screen and (min-width: 480px) {
+    /* Target every 7th child of class 'card' */
     .card:nth-child(7n + 1) {
+        /* Adjust grid layout for wider screens */
         grid-column: auto/span 2;
         grid-row: auto/span 2;
     }
 }
 
+/* Styling for scrollbar in elements with class 'prompt' */
 .prompt::-webkit-scrollbar {
-    width: 5px;
+    width: 5px; /* Set scrollbar width */
 }
  
 .prompt::-webkit-scrollbar-thumb {
-  background-color: #666e75;
-  border-radius: 5px;
+    /* Style scrollbar thumb */
+    background-color: #666e75; /* Set background color */
+    border-radius: 5px; /* Set border radius */
 }
