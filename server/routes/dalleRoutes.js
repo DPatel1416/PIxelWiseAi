@@ -1,16 +1,17 @@
 import express from 'express'; // Importing Express framework for creating APIs
 import * as dotenv from 'dotenv'; // Importing dotenv for environment variable management
-import OpenAI from 'openai'; // Importing OpenAI SDK for interacting with the OpenAI API
+import { Configuration, OpenAIApi } from 'openai';
 
-dotenv.config(); // Loading environment variables from .env file
+dotenv.config();
 
-const router = express.Router(); // Creating a router instance for defining API routes
+const router = express.Router();
 
-// Creating a configuration object for OpenAI API using the API key from environment variables
-const openai = new OpenAI
-  ({
+const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
+
+const openai = new OpenAIApi(configuration);
+
 
 // Handling GET request to the root endpoint
 router.route('/').get((req, res) => {
