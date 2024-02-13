@@ -1,5 +1,5 @@
 import FileSaver from 'file-saver'; // Importing the FileSaver module for saving files
-import { surpriseMePrompts } from '../constants/index.js'; // Importing the surpriseMePrompts array containing predefined prompts
+import { surpriseMePrompts } from '../constant'; // Importing the surpriseMePrompts array containing predefined prompts
 
 // Function to retrieve a random prompt from the surpriseMePrompts array
 export function getRandomPrompt(prompt) {
