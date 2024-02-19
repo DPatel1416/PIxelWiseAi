@@ -1,26 +1,26 @@
 # Welcome to PixelWise AI
--PixelWise AI is a web application that leverages the power of DALL-E AI to generate imaginative and visually stunning images. 
--Users can create posts with prompts, and the application generates images based on those prompts using DALL-E.
+- PixelWise AI is a web application that leverages the power of DALL-E AI to generate imaginative and visually stunning images. 
+- Users can create posts with prompts, and the application generates images based on those prompts using DALL-E.
 # Features
     
--Generate images based on user prompts.
--Share created images with the community.
--Browse through a collection of generated images.
+- Generate images based on user prompts.
+- Share created images with the community.
+- Browse through a collection of generated images.
 # Technologies Used
 
--Frontend: React.js, Tailwind CSS
--Backend: Node.js, Express.js
--Database: MongoDB
--Image Processing: OpenAI DALL-E
--Cloud Storage: Cloudinary
+- Frontend: React.js, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Image Processing: OpenAI DALL-E
+- Cloud Storage: Cloudinary
 
 # Installation
     
--Clone the repository:
--bash
--Copy code
--git clone https://github.com/DPatel1416/PixelWiseAi.git
--Navigate to the project directory:
+- Clone the repository:
+- bash
+- Copy code
+- git clone https://github.com/DPatel1416/PixelWiseAi.git
+- Navigate to the project directory:
 
 # For Frontend Environment 
 
