@@ -1,12 +1,12 @@
-##Welcome to PixelWise AI
+# Welcome to PixelWise AI
 -PixelWise AI is a web application that leverages the power of DALL-E AI to generate imaginative and visually stunning images. 
 -Users can create posts with prompts, and the application generates images based on those prompts using DALL-E.
-##Features
+# Features
     
 -Generate images based on user prompts.
 -Share created images with the community.
 -Browse through a collection of generated images.
-##Technologies Used
+# Technologies Used
 
 -Frontend: React.js, Tailwind CSS
 -Backend: Node.js, Express.js
@@ -14,7 +14,7 @@
 -Image Processing: OpenAI DALL-E
 -Cloud Storage: Cloudinary
 
-##Installation
+# Installation
     
 -Clone the repository:
 -bash
@@ -22,7 +22,7 @@
 -git clone https://github.com/DPatel1416/PixelWiseAi.git
 -Navigate to the project directory:
 
-##For Frontend Environment 
+# For Frontend Environment 
 
 1. npm create vite@latest ./      
 2. npm install -D tailwindcss postcss autoprefixer                    
@@ -31,14 +31,14 @@
 5. npm install react-router-dom    
 6. npm run dev
 
-##For backend Environment
+# For backend Environment
 create server folder in main project folder and {cd server}
 Install dependencies for the backend:
 1. npm init -y   
 2. npm install cloudinary cors dotenv express mongoose nodemon openai
 3. npm start
 
-Create a .env file in the backend directory and add the following environment variables:
+# Create a .env file in the backend directory and add the following environment variables:
 
 1. MONGODB_URL = "API KEY"
 2. OPENAI_API_KEY = "API KEY"
